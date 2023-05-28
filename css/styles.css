@@ -1,0 +1,241 @@
+:root {
+  --color-grey: #434455;
+  --color-blue: #4d5ae5;
+  --color-darkgrey: #2e2f42;
+  --color-button: #f4f4fd;
+  --color-dark-blue: #404bbf;
+  --color-white: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.part-logo {
+  color: var(--color-darkgrey);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-darkgrey);
+}
+
+.list-menu:hover,
+.list-menu:focus {
+  color: var(--color-dark-blue);
+}
+
+.list-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+.list-contacts:hover,
+.list-contacts:focus {
+  color: var(--color-dark-blue);
+}
+
+.hero-port {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-blue);
+  background-color: var(--color-button);
+  cursor: pointer;
+}
+
+.hero-port:hover,
+.hero-port:focus {
+  color: var(--color-white);
+}
+
+.hero-port:hover,
+.hero-port:focus {
+  background-color: var(--color-dark-blue);
+}
+
+.name-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-darkgrey);
+}
+
+.text-header {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+.foot-part-logo {
+  color: var(--color-button);
+}
+
+.foot-sect {
+  background-color: var(--color-darkgrey);
+}
+
+.header-one {
+  font-family: 'Roboto';
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-white);
+  line-height: 1.07;
+}
+.hero {
+  background-color: var(--color-darkgrey);
+}
+
+.header-two {
+  font-family: 'Roboto' sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-darkgrey);
+}
+
+.section-four {
+  background-color: var(--color-button);
+}
+
+.list-name {
+  background-color: var(--color-white);
+}
+
+.header-three {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+  color: var(--color-darkgrey);
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-dark-blue);
+}
+
+.list-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-darkgrey);
+}
+
+.list-menu:hover,
+.list-menu:focus {
+  color: var(--color-dark-blue);
+}
+
+.text-add {
+  font-style: normal;
+}
+
+.list-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+.list-contacts:hover,
+.list-contacts:focus {
+  color: var(--color-dark-blue);
+}
+
+.list {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
+}
+
+footer {
+  background: var(--color-darkgrey);
+}
+
+.text-footer {
+  color: var(--color-button);
+  margin-left: 156px;
+  letter-spacing: 0.02em;
+}
+
+footer .part-logo {
+  margin-left: 156px;
+}
+
+.logo.link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}
+
+.part-logo {
+  color: var(--color-darkgrey);
+}
+
+.foot-part-logo {
+  color: var(--color-button);
+}
