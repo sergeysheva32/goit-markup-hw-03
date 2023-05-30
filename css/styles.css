@@ -353,6 +353,7 @@ ul {
 
 .foot-sect {
   background-color: var(--color-darkgrey);
+  padding: 100px 0;
 }
 
 .text-footer {
@@ -362,17 +363,12 @@ ul {
   font-size: 16px;
   line-height: 24px;
   max-width: 264px;
-  padding-bottom: 100px;
 }
 
 .foot-sect .logo.link {
   display: inline-block;
   flex-direction: column;
   margin-bottom: 16px;
-}
-
-footer a {
-  padding-top: 100px;
 }
 
 .logo.link-head {
