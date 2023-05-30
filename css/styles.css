@@ -132,9 +132,9 @@ address li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-darkgrey);
-  padding-top: 32px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 8px;
 }
 
 .text-header {
@@ -442,6 +442,7 @@ footer a {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   margin-right: 24px;
+  padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
@@ -459,7 +460,7 @@ footer a {
 .bord {
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  padding: 32px 16px;
 }
 
 .main-text {
