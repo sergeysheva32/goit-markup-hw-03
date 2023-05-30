@@ -132,8 +132,6 @@ address li {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-darkgrey);
-  margin-top: 32px;
-  margin-left: 16px;
   margin-bottom: 8px;
 }
 
@@ -142,8 +140,6 @@ address li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey);
-  padding-left: 16px;
-  padding-bottom: 32px;
 }
 
 .foot-part-logo {
@@ -155,8 +151,6 @@ address li {
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0;
-  width: 1440px;
-  height: 600px;
 }
 
 .header-one {
@@ -167,7 +161,8 @@ address li {
   color: var(--color-white);
   line-height: 1.07;
   max-width: 496px;
-  margin-left: 472px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*section 2 */
@@ -180,7 +175,6 @@ address li {
 .section-two .list {
   display: flex;
   gap: 24px;
-  margin: 120px 156px 120px 156px;
 }
 
 .list-advantages {
@@ -200,7 +194,6 @@ address li {
 
 /*section 3 */
 .section-three {
-  margin: 120px 156px 120px 156px;
   padding-bottom: 120px;
 }
 
@@ -221,9 +214,6 @@ address li {
   gap: 24px;
 }
 
-.section-three img {
-  padding-right: 24px;
-}
 .list-three {
   width: calc((100% - 48px) / 3);
 }
@@ -241,9 +231,6 @@ img {
   height: 732px;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.section-four h2 {
-  padding: 120px 0 0 0;
 }
 
 .section-four ul {
@@ -288,9 +275,9 @@ img {
   cursor: pointer;
   padding: 0;
   margin-top: 48px;
-  margin-right: 635px;
-  margin-bottom: 188px;
-  margin-left: 636px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -366,8 +353,6 @@ ul {
 
 .foot-sect {
   background-color: var(--color-darkgrey);
-  width: 1440px;
-  height: 312px;
 }
 
 .text-footer {
@@ -377,20 +362,20 @@ ul {
   font-size: 16px;
   line-height: 24px;
   max-width: 264px;
+  padding-bottom: 100px;
 }
 
 .foot-sect .logo.link {
   display: inline-block;
   flex-direction: column;
-
-  margin: 100px 0 16px 156px;
+  margin-bottom: 16px;
 }
 
 footer a {
-  padding: 0;
+  padding-top: 100px;
 }
 
-.logo.link {
+.logo.link-head {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -398,9 +383,9 @@ footer a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--color-blue);
   margin-right: 76px;
-  margin-bottom: 16px;
 }
 
 .part-logo {
@@ -439,7 +424,6 @@ footer a {
   height: 48px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  margin-right: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
