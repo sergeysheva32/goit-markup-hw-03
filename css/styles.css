@@ -44,12 +44,11 @@ address li {
 
 .hed {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .main-hed {
   display: flex;
+  align-items: center;
 }
 
 .container {
@@ -91,6 +90,7 @@ address li {
 }
 
 .list-menu {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -184,7 +184,7 @@ address li {
 .header-three {
   /* section 2 and section 3 */
   font-family: 'Roboto' sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 24px;
@@ -227,8 +227,6 @@ img {
 /*section 4 */
 .section-four {
   background-color: var(--color-button);
-  width: 1440px;
-  height: 732px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -252,6 +250,7 @@ img {
 }
 
 .header-worker {
+  font-weight: 500;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -290,19 +289,6 @@ img {
 .button:hover,
 .button:focus {
   background-color: var(--color-dark-blue);
-}
-
-.list-menu {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-darkgrey);
-}
-
-.list-menu:hover,
-.list-menu:focus {
-  color: var(--color-dark-blue);
 }
 
 .text-add {
